@@ -10,12 +10,19 @@
   },
   "dependencies": {
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "react-joyride": "^2.5.3",
+    "react-router": "^6.4.3",
+    "react-router-dom": "^6.4.3",
+    "react-syntax-highlighter": "^15.5.0",
+    "uid": "^2.0.1"
   },
   "devDependencies": {
     "@types/react": "^18.0.25",
     "@types/react-dom": "^18.0.8",
+    "@types/react-syntax-highlighter": "^15.5.5",
     "@vitejs/plugin-react": "^2.2.0",
+    "sass": "^1.56.1",
     "typescript": "^4.6.4",
     "vite": "^3.2.3"
   }

@@ -1,0 +1,69 @@
+.RightSideRamContainer {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 70px 1fr;
+  gap: 15px;
+  .ActionsZones {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 15px;
+    padding: 20px;
+    white-space: nowrap;
+    align-items: center;
+    justify-items: center;
+  }
+  .visualizer-wrapper {
+    background: rgb(255, 137, 19);
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    gap: 15px;
+    padding: 15px;
+    padding: 1em;
+    margin: 0.5em 0px;
+    overflow: auto;
+    border: 0.3em solid rgb(187, 94, 0);
+    border-radius: 0.5em;
+    .ram-stack {
+      background: green;
+      display: grid;
+      grid-template-columns: 1fr;
+      grid-template-rows: 1fr;
+    }
+    .heap-stack {
+      background: yellow;
+      display: grid;
+      grid-template-columns: 1fr;
+      grid-template-rows: 1fr;
+    }
+    .item-wrap {
+      border: 2px solid pink;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      grid-template-rows: 1fr;
+      .address {
+        text-align: left;
+      }
+      .value {
+        text-align: right;
+      }
+    }
+  }
+  .PreviewsZone {
+    display: grid;
+    grid-template-columns: 500px 1fr;
+    grid-template-rows: 1fr;
+    gap: 15px;
+    .syntax-line-wrapper {
+      display: grid;
+      grid-template-rows: 1fr;
+      grid-template-columns: 1fr auto;
+      overflow: hidden;
+      .btn{
+        padding: 0 2px;
+        line-height: 0;
+        margin: 1px;
+      }
+    }
+  }
+}
