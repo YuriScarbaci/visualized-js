@@ -1,3 +1,3 @@
 # visualized-js
 
-[Edit on StackBlitz ⚡️](https://stackblitz.com/edit/vitejs-vite-feext6)
+[See it on stackblitz! ⚡️](https://stackblitz.com/github/YuriScarbaci/visualized-js)
